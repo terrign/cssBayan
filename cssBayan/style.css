@@ -111,3 +111,117 @@ input[type="radio"] {
         color: black;
     }
 }
+
+/* 1 */
+
+#cross_toggle1:checked + label > .meme {
+    visibility: visible;
+    max-height: 300%;
+    opacity: 100%;
+    margin-bottom: 2%;
+}
+
+#cross_toggle1:not(:checked):not(:hover) + label > .meme {
+    visibility: hidden;
+    max-height: 0px;
+    opacity: 0%;
+    margin-bottom: 0;
+}
+
+#cross_toggle1:checked ~ .memeBlock > .t1 {
+    color: black;
+}
+
+#cross_toggle1:checked + label {
+    max-height: 300%;
+}
+
+#cross_toggle1:checked ~ .memeBlock > #cross1 {
+    transform: rotate(45deg)
+}
+
+/* 2 */
+
+#cross_toggle2:checked + label > .meme {
+    visibility: visible;
+    max-height: 300%;
+    opacity: 100%;
+    margin-bottom: 2%;
+}
+
+#cross_toggle2:not(:checked):not(:hover) + label > .meme {
+    visibility: hidden;
+    max-height: 0px;
+    opacity: 0%;
+    margin-bottom: 0;
+}
+
+#cross_toggle2:checked ~ .memeBlock > .t2 {
+    color: black;
+}
+
+#cross_toggle2:checked + label {
+    max-height: 300%;
+}
+
+
+#cross_toggle2:checked ~ .memeBlock > #cross2 {
+    transform: rotate(45deg)
+}
+
+/* 3 */
+
+#cross_toggle3:checked + label > .meme {
+    visibility: visible;
+    max-height: 300%;
+    opacity: 100%;
+    margin-bottom: 2%;
+}
+
+#cross_toggle3:not(:checked):not(:hover) + label > .meme {
+    visibility: hidden;
+    max-height: 0px;
+    opacity: 0%;
+    margin-bottom: 0;
+}
+
+#cross_toggle3:checked ~ .memeBlock > .t3 {
+    color: black;
+}
+
+#cross_toggle3:checked + label {
+    max-height: 300%;
+}
+
+
+#cross_toggle3:checked ~ .memeBlock > #cross3 {
+    transform: rotate(45deg)
+}
+
+/* 4 */
+
+#cross_toggle4:checked + label > .meme {
+    visibility: visible;
+    max-height: 300%;
+    opacity: 100%;
+    margin-bottom: 2%;
+}
+
+#cross_toggle4:not(:checked):not(:hover) + label > .meme {
+    visibility: hidden;
+    max-height: 0px;
+    opacity: 0%;
+    margin-bottom: 0;
+}
+
+#cross_toggle4:checked ~ .memeBlock > .t4 {
+    color: black;
+}
+
+#cross_toggle4:checked + label {
+    max-height: 300%;
+}
+
+#cross_toggle4:checked ~ .memeBlock > #cross4 {
+    transform: rotate(45deg);
+}
