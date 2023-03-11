@@ -85,3 +85,29 @@ input[type="radio"] {
 .memeBlock:active > .meme_text {
     color:blue !important;
 }
+
+@media (hover: hover) {
+    .memeBlock:hover > .meme {
+        visibility: visible;
+        max-height: 300%;
+        opacity: 100%;
+        margin-bottom: 2%;
+    }
+
+    .memeBlock:hover {
+        max-height: 300%;
+        cursor: pointer;
+    }
+
+    .memeBlock:hover > .cross {
+        transform: rotate(45deg);
+    }
+
+    main:hover > .memeBlock > .cross {
+        opacity: 100%;
+    }
+
+    main:hover > .memeBlock > .meme_text {
+        color: black;
+    }
+}
