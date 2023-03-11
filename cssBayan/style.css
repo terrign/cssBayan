@@ -3,6 +3,8 @@ html, body {
     font-weight: 600;
     box-sizing: content-box;
     background: whitesmoke;
+    height: 100%;
+    overflow: hidden;
 }
 
 * {
@@ -36,7 +38,7 @@ h1 {
     transition: max-height 1s ease-out;
     width: 100%;
     display: block;
-    max-height: 8%;
+    max-height: 10%;
     overflow-y: hidden;
 }
 
@@ -44,8 +46,8 @@ h1 {
     transition: all 1s ease-out;
     margin: 0 auto;
     display: block;
-    width: 25vw;
-    height: 25vw;
+    width: 15vw;
+    height: 15vw;
 }
 
 .meme_text {
