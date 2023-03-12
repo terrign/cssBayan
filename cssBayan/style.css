@@ -15,7 +15,7 @@ html, body {
 main {
     height: 100%;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .wrapper {
@@ -28,18 +28,23 @@ main {
 h1 {
     text-align: left;
     font-size: 2rem;
-    border-bottom: 1px solid rgb(200,200,200);
     word-wrap: none;
-    padding: 2% 0;
+    padding: 2%;
 }
 
 .memeBlock {
-    border-bottom: 1px solid rgb(200,200,200);
     transition: max-height 1s ease-out;
     width: 100%;
     display: block;
     max-height: 10%;
     overflow-y: hidden;
+    border: 1px solid rgb(200,200,200);
+    background-color: rgb(235,235,235);
+    box-shadow: 2px 2px 1px rgb(225,225,225);
+    padding: 1%;
+    margin: 1%;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
 .meme {
@@ -88,7 +93,6 @@ input[type="radio"] {
         visibility: visible;
         max-height: 300%;
         opacity: 100%;
-        margin-bottom: 2%;
     }
 
     .memeBlock:hover {
